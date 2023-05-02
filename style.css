@@ -183,7 +183,7 @@ a {
       display: block;
     }
     .eu {
-      display: hidden;
+      display: none;
     }
     .In {
       text-align: center;
