@@ -182,6 +182,12 @@ a {
     .mobile-menu {
       display: block;
     }
+      .eu {
+      display: hidden;
+    }
+    .In {
+      text-align: center;
+    }
   }
   
   .nav-list.active {
