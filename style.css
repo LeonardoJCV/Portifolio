@@ -153,7 +153,6 @@ a {
   @media (max-width: 999px) {
     * {
       text-align: center;
-      display: flex;
     }
     body {
       overflow-x: hidden;
