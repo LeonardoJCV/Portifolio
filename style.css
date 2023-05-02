@@ -151,6 +151,10 @@ a {
   }
   
   @media (max-width: 999px) {
+    * {
+      text-align: center;
+      display: flex;
+    }
     body {
       overflow-x: hidden;
     }
@@ -176,15 +180,6 @@ a {
     }
     .eu {
       display: none;
-    }
-    .In {
-      text-align: center;
-    }
-    .meio {
-      text-align: center;
-    }
-    .fim {
-      text-align: center;
     }
   }
   
