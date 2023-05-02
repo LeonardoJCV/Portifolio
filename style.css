@@ -194,6 +194,16 @@ a {
     .logo3 {
       display: none;
     }
+    .meio {
+      text-align: center;
+      justify-content: center;
+      overflow-x: hidden;
+    }
+    .fim {
+      text-align: center;
+      justify-content: center;
+      overflow-x: hidden;
+    }
   }
   
   .nav-list.active {
