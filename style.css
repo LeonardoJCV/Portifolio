@@ -186,7 +186,13 @@ a {
       display: none;
     }
     .In {
-      text-align: center;
+      display: none;
+    }
+    .logo2 {
+      display: none;
+    }
+    .logo3 {
+      display: none;
     }
   }
   
