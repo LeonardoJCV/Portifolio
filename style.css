@@ -1,8 +1,9 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     box-sizing: border-box;
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
+    overflow-x: hidden;
 }
 .inicio {
     text-align: center;
@@ -13,84 +14,95 @@ h1 {
 .eu {
     border-radius: 100%;
     box-shadow: 10px 10px 10px 10px #7e7e7e;
-    height: 320px;
-    width: 320px;
+    height: 30vh;
+    width: 15vw;
     position: absolute;
-    right: 150px;
+    right: 20vh;
 }
 .In {
     position: absolute;
-    left: 100px;
+    left: 6vw;
 }
 .meio {
-    border-left: solid 4px;
+    border-left: solid 0.5vh;
     border-color: #000000;
     box-shadow: 0px 0px 50px 1px #c2c2c2;
-    margin: 100px 100px 0px;
+    margin-left: 6vh;
+    margin-right: 6vh;
+    margin-top: 10vh;
+    margin-bottom: 0;
+    width: 94vw;
+    height: 65vh;
 }
 .leg1 {
     color: rgb(205, 10, 10);
     font-size: x-large;
     position: relative;
-    left: 300px;
-    bottom: 350px;
+    left: 45vh;
+    bottom: 36vh;
 }
 .p1 {
     position:relative;
-    left: 300px;
-    bottom: 300px;
-    font-size: 20px;
+    left: 45vh;
+    bottom: 32vh;
+    font-size: 2.5vh;
 }
 .p2 {
     position:relative;
-    left: 300px;
-    bottom: 250px;
-    font-size: 20px;
+    left: 45vh;
+    bottom: 28vh;
+    font-size: 2.5vh;
 }
 .p3 {
     position:relative;
-    left: 300px;
-    bottom: 200px;
-    font-size: 20px;
+    left: 45vh;
+    bottom: 24vh;
+    font-size: 2.5vh;
 }
 .fim {
-    border-left: solid 4px;
+    border-left: solid 0.5vh;
+    border-bottom: solid 0.5vh;
     border-color: #000000;
     box-shadow: 0px 0px 50px 1px #c2c2c2;
-    margin: 0px 100px;
+    margin-left: 6vh;
+    margin-right: 6vh;
+    width: 94vw;
+    height: 65vh;
 }
 .leg2 {
-    color: rgb(205, 10, 10);
-    font-size: 22px;
-    position: relative;
-    left: 300px;
-    bottom: 250px;
+  color: rgb(205, 10, 10);
+  font-size: x-large;
+  position: relative;
+  left: 45vh;
+  bottom: 28vh;
 }
 .p4 {
     position:relative;
-    left: 300px;
-    bottom: 200px;
-    font-size: 20px;
+    left: 45vh;
+    bottom: 24vh;
+    font-size: 2.5vh;
 }
 .p5 {
     position:relative;
-    left: 300px;
-    bottom: 150px;
-    font-size: 20px;
+    left: 45vh;
+    bottom: 20vh;
+    font-size: 2.5vh;
 }
 .p6 {
     position:relative;
-    left: 300px;
-    bottom: 100px;
-    font-size: 20px;
+    left: 45vh;
+    bottom: 16vh;
+    font-size: 2.5vh;
 }
 .logo2 {
     position: relative;
-    top: 50px;
+    top: 8vh;
+    left: 5vh;
 }
 .logo3 {
     position: relative;
-    top: 350px;
+    top: 40vh;
+    left: 5vh;
 }
 a {
     color: #fff;
