@@ -185,20 +185,27 @@ a {
       align-items: center;
     }
     .leg {
-      display: flex;
+      display:flex;
+      flex-direction: column;
       align-items: center;
     }
     .p1 {
       display: flex;
+      flex-direction: column;
       align-items: center;
+      position: relative;
     }
     .p2 {
       display: flex;
+      flex-direction: column;
       align-items: center;
+      position: relative;
     }
     .p3 {
       display: flex;
+      flex-direction: column;
       align-items: center;
+      position: relative;
     }
     .logo3 {
       display: flex;
