@@ -178,52 +178,13 @@ a {
       display: none;
     }
     .In {
-      display: none;
-    }
-    .logo2 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      position: relative;
-    }
-    .leg {
-      display:flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .p1 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      position: relative;
-    }
-    .p2 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      position: relative;
-    }
-    .p3 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      position: relative;
-    }
-    .logo3 {
-      display: flex;
-      align-items: center;
+      text-align: center;
     }
     .meio {
-      align-items: center;
-      justify-content: center;
-      overflow-x: hidden;
-      overflow-y: hidden;
+      text-align: center;
     }
     .fim {
-      align-items: center;
-      justify-content: center;
-      overflow-x: hidden;
-      overflow-y: hidden;
+      text-align: center;
     }
   }
   
