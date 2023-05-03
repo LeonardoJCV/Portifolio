@@ -151,20 +151,9 @@ a {
   }
   
   @media (max-width: 999px) {
-    body {
+    header {
       overflow-x: hidden;
     }
-    .In {
-      text-align: center;
-      display:block;
-      position: relative;
-    }
-    .logo2 {
-      text-align: center;
-      display: flex;
-      position: relative;
-      width: 40%;
-      height: 40%;
     }
     .nav-list {
       position: absolute;
