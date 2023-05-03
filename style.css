@@ -152,7 +152,24 @@ a {
   
   @media (max-width: 999px) {
     * {
+      margin: auto;
+      padding: auto;
+      box-sizing: border-box;
+      font-family:'Courier New', Courier, monospace;
+      overflow-x: hidden;
       text-align: center;
+    }
+    h1 {
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+    }
+    .eu {
+      border-radius: 100%;
+      box-shadow: 10px 10px 10px 10px #7e7e7e;
+      height: 10%;
+      width: 10%;
+      position: relative;
     }
     .nav-list {
       position: absolute;
@@ -174,13 +191,11 @@ a {
     .mobile-menu {
       display: block;
     }
-    .eu {
-      display: none;
-    }
   }
   
   .nav-list.active {
     transform: translateX(0%);
+    animation: navLinkFade 2s;
   }
   
   @keyframes navLinkFade {
