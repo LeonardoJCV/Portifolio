@@ -154,8 +154,8 @@ nav {
 @media (max-width: 999px) {
   body {
     overflow-x: hidden;
+    }
 }
-  
 .nav-list.active {
   transform: translateX(0);
 }
