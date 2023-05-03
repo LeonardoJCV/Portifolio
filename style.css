@@ -174,7 +174,16 @@ a {
     .mobile-menu {
       display: block;
     }
-    body {
+    .In {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+    .meio {
+      display: none;
+    }
+    .fim {
       display: none;
     }
   }
