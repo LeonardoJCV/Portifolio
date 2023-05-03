@@ -172,6 +172,7 @@ nav {
   .nav-list li {
     margin-left: 0;
     opacity: 0;
+    display: none;
   }
   .mobile-menu {
     display: block;
