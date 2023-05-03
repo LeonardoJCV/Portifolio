@@ -174,11 +174,11 @@ a {
     .mobile-menu {
       display: block;
     }
+    .eu {
+      display: none;
+    }
     .In {
-      display: flex;
-      align-items: center;
-      text-align: center;
-      position: relative;
+      display: none;
     }
     .meio {
       display: none;
