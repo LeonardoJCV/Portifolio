@@ -155,6 +155,10 @@ nav {
   body {
     overflow-x: hidden;
     }
+   .nav-list {
+     width: 5%;
+     height: 5%;
+  }
 }
 .nav-list.active {
   transform: translateX(0);
