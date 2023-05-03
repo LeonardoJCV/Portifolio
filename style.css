@@ -152,8 +152,8 @@ a {
   
   @media (max-width: 999px) {
     * {
-      margin: auto;
-      padding: auto;
+      margin: 100%;
+      padding: 100%;
       box-sizing: border-box;
       font-family:'Courier New', Courier, monospace;
       overflow-x: hidden;
@@ -165,11 +165,24 @@ a {
       flex-direction: row;
     }
     .eu {
+      text-align: center;
       border-radius: 100%;
       box-shadow: 10px 10px 10px 10px #7e7e7e;
-      height: 10%;
-      width: 10%;
+      height: 40%;
+      width: 40%;
       position: relative;
+    }
+    .In {
+      text-align: center;
+      display:block;
+      position: relative;
+    }
+    .logo2 {
+      text-align: center;
+      display: flex;
+      position: relative;
+      width: 40%;
+      height: 40%;
     }
     .nav-list {
       position: absolute;
@@ -195,7 +208,6 @@ a {
   
   .nav-list.active {
     transform: translateX(0%);
-    animation: navLinkFade 2s;
   }
   
   @keyframes navLinkFade {
